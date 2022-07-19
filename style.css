@@ -49,7 +49,7 @@ grid-template-areas:
     border: 20px solid transparent;
 }
 .BoxHeaderV2{
-    font-size:17rem;
+    font-size:12rem;
     color:black;display: flex;flex-direction: row;
 }
 .four{grid-area:Patrick;
@@ -67,6 +67,7 @@ grid-template-areas:
     top:20px
 }
 .Boxtitle2{
+    
     position: relative;left: 25px;top:20px;line-height: 1px;
 }
 .Content1{
