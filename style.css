@@ -1,0 +1,162 @@
+body{background-color:#b6bbc0; ;}
+html{
+    font-size: 1.5px;
+}
+/* layouttt */
+img{border-radius:50px;
+    display: block;
+    width:50px;height:50px;
+    position: relative;top:25px;
+    border: 2px solid #a071e1;
+}
+.box{border-radius: 10px;border: 10px solid transparent;}
+.main{width: 100%;
+ height: 100%;
+display: grid;
+background-color:#b6bbc0;
+gap: 1%;
+grid-template-columns: 24% 24% 24% 24%;
+grid-template-rows: 49% 49%;
+resize: both;
+overflow: hidden;
+grid-template-areas: 
+"Daniel Daniel Jonathan Kira"
+"Jeanette Patrick Patrick Kira"}
+/* boxessssss */
+.one{
+    grid-area: Daniel;
+    background-color:  hsl(263, 55%, 52%);
+    display:grid;
+    grid-template-rows:31% 35% 35%;
+    }
+.BoxHeader{
+    font-size:12rem;
+    color:white;
+    display: flex;
+    flex-direction: row;
+}
+.two{
+    grid-area: Jonathan;
+    background-color: hsl(217, 19%, 35%);
+    display:grid;
+    grid-template-rows:31% 35% 35%;
+    border: 20px solid transparent;}
+.three{
+    grid-area:Jeanette;
+    background-color:white;
+    display:grid;
+    grid-template-rows:31% 35% 35%;
+    border: 20px solid transparent;
+}
+.BoxHeaderV2{
+    font-size:17rem;
+    color:black;display: flex;flex-direction: row;
+}
+.four{grid-area:Patrick;
+    background-color:  hsl(219, 29%, 14%);
+    display:grid;
+    grid-template-rows:31% 35% 35%;
+    border: 20px solid transparent;}
+.five{grid-area:Kira;color : black;
+    background-color:white;
+    display:grid;grid-template-rows:15% 20% 65%}
+/* typingggg */
+.Boxtitle{
+    position: relative;
+    left: 25px;
+    top:20px
+}
+.Boxtitle2{
+    position: relative;left: 25px;top:20px;line-height: 1px;
+}
+.Content1{
+    font-size: 17rem;
+    color: white;
+    border: 5px solid transparent;
+}
+.box3Content1{
+    color:black;
+    opacity: 60%;
+    font-size: 17rem;
+    border: 5px solid transparent;
+}
+.Content2{
+    font-size:12rem;
+    color: white;
+    opacity: 75%;
+}
+.box3Content2{
+   color:black;
+   font-size:12rem;
+    opacity: 75%;
+}
+.SubTitle{
+    font-size: 12rem;
+    position: relative;
+    bottom: 14px;
+    color:white;
+    opacity: 50%;
+    -webkit-text-stroke: .2px  black;}
+.SubTitle2{
+    font-size: 12rem;
+    position: relative;
+    bottom:2px;
+    color:black;
+    opacity: 50%;
+    -webkit-text-stroke: .2px  black;}
+.Box5Content2{
+    font-size:12rem ;color: black;opacity: 75%;
+}
+@media (max-width:700px) {
+    html{
+        font-size: 1.2px;
+    }
+    img{
+        position: relative;
+        top: 8px;
+    }
+     .one img{
+        position: relative;
+        top: 20px;
+    }
+    .five img{
+        position: relative;
+        top: 20px;
+    }
+    .main{
+        gap: .5%;
+        grid-template-columns: none;
+        grid-template-rows:22% 16% 13% 20% 29%;
+        grid-template-areas: 
+        "Daniel"
+        "Jonathan"
+        "Jeanette"
+        "Patrick"
+        "Kira";     
+    }
+    .five{background-color:white;
+        display:grid;grid-template-rows:15% 20% 60%}
+    .box5Content2{
+        font-size: 6rem;
+    }
+    .SubTitle2{
+        position: relative;
+        top:5%;
+    }    
+    .box3Content1{
+        position: relative;
+        top:50%;
+    }
+    .box3Content2{
+        position: relative;
+        top:30%;}
+    .two .Content1{
+        position: relative;
+        top: 20%;
+    }
+    .one .Content2{
+        position: relative;
+        bottom: 10%;
+    }
+
+}
